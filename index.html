@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark" id="top">
+    
+    <header class="header center">
+      <h3>
+        <a href="https://github.com/samirbas/" target="_blank">
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projets</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <!-- <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button> -->
+
+        <button
+          type="button"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h2 class="about__name">Samir Ben Abdessalem</h2>
+        <h4 class="about__role">Concepteur Développeur</h4>
+        <p class="about__desc">
+          Je suis curieux, organisé et passionné. 
+          Le travail en équipe amplifie l'efficacité, l'innovation et la réussite
+        </p>
+
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projets</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Ascii Art WEB</h3>
+            <p class="project__description">
+              Ascii-art-web consiste à créer et faire fonctionner un serveur tout en utilisant les requêtes HTTP GET et POST
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Golang</li>
+            </ul>
+
+            <a
+              href="https://github.com/samirbas/Ascii-Art-WEB"
+              target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Groupie Trackers</h3>
+            <p class="project__description">
+              Groupie Trackers consiste à utiliser une API (Artistes) pour intégrer les données dans une page web conviviale avec une barre de recherche
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Golang</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a
+              href="https://github.com/samirbas/groupie-tracker"
+              target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Forum</h3>
+            <p class="project__description">
+              Création d'un forum avec une authentification des utilisateurs, publication de posts et système de commentaires le tout intégré à une base de données
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Golang</li>
+              <li class="project__stack-item">SQLITE</li>
+            </ul>
+
+            <a
+              href="https://github.com/samirbas/Forum"
+              target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+        <div class="project">
+          <h3>GRAPHQL</h3>
+          <p class="project__description">
+            Création d'une interface utilisateur, en utilisant GraphQL (langage de requête pour les API) et affichage des données ainsi que des graphiques (statistiques)
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">GRAPHQL</li>
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a
+            href="https://github.com/samirbas/GraphQL"
+            target="_blank"
+            aria-label="source code"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Mini framework</h3>
+          <p class="project__description">
+            Création d'un mini framework qui permet la manipulation du DOM
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a
+            href="https://github.com/samirbas/mini-framework"
+            target="_blank"
+            aria-label="source code"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <!-- <img src="html.png" alt="" width="20" height="20"> -->
+          <!-- <li><a href="https://en.wikipedia.org/wiki/HTML5">HTML</a></li>  -->
+          <li class="skills__list-item btn btn--plain"><a href="">HTML</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="">CSS</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="">JavaScript</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="">React</a></li>
+          <li class="skills__list-item btn btn--plain"><a href=""></a>Golang</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="">PHP</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="">SQL</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="">Git/Github</a></li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:samir.bas24@gmail.com">
+          <span class="btn btn--outline">Envoie mail</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/samirbas/"
+        class="link footer__link"
+      >
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
